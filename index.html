@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Craps</title>
+    <title>Document</title>
 </head>
 <body>
-    
+    <header><h1 class="pulse">Craps!</h1></header>
+    <div id="ejercicio">
+        <div class="container">
+          <h2>Intrucciones</h2>
+            <p>1 - Si en el primer tiro el jugador obtiene 7 (siete) u 11 (once) Gana la partida. </p>  
+            <p>2 - Si en el primer tiro el jugador obtiene 2 (dos), 3 (tres) o 12 (doce) Pierde la partida. </p>  
+            <p>3 - Si en el primer tiro obtiene  4 (cuatro), 5 (cinco), 6 (seis), 8 (ocho), 9 (nueve), ó 10 (diez), estableceel PUNTO. </p>  
+            <p>4 - El tirador tiene que arrojar los dados tantas veces como sea necesario, hasta obtener el número que busca (Punto). Si antes sale el 7 (siete), El jugador pierde.</p>       
+          <h2>Ejercicio</h2>
+          <p>Complete el programa para que funcione según las instrucciones del juego</p>
+        </div>
+        <div class="lado">
+            <p id="tiro">Numero :</p>
+        <div id="contenedor_dados">
+          <div id="dado1" class="dado"></div>
+          <div id="dado2" class="dado"></div>
+        </div>
+        <input type="button" value="Tirar" id="boton_tirar">
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/Alafresh/Craps_CasinoGame">Codigo Fuente</a>
+        <a href="https://codepen.io/xaca/"> Tomado de Xaca Rana</a>
+        <a href="https://es.wikipedia.org/wiki/Craps#:~:text=Durante%20el%20tiro%20de%20salida,apuesta%20paga%20uno%20a%20uno.">Reglas</a>
+    </footer>
 </body>
 </html>
